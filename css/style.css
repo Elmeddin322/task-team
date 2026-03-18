@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+    max-width: 1350px;
+    margin: auto;
+    padding: 0 30px;
+}
+.hero {
+  padding: 60px 0;
+  background-color: white;
+  padding-bottom: 20px;
+}
+.hero .container {
+  padding-left: 300px;
+}
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+.hero-left {
+  max-width: 500px;
+}
+.hero-tags {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: black;
+}
+.hero h1 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 0.8;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 16px;
+  color: black;
+  line-height: 1.6;
+}
+.hero-right img {
+  width: 40%;
+  max-width: 400px;
+  margin-right: 30px;
+}
+.hero-right {
+  margin-right: 40px;
+}
+.quote {
+  padding: 60px 0;
+}
+.quote-card {
+  background-color: #2a5fbd;
+  color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  max-width: 380px;
+  margin: 0 auto;
+}
+.quote-card p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.quote-card span {
+  font-size: 14px;
+  opacity: 0.8;
+  display: block;
+  padding-left: 150px;
+}
+
