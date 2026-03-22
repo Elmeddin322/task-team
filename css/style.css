@@ -1,71 +1,79 @@
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:"Roboto Slab", serif;
 }
 .container{
-    max-width: 1350px;
-    margin: auto;
-    padding: 0 30px;
+max-width: 1350px;
+margin: auto;
+padding: 0 32px;
 }
-.hero {
-  padding: 60px 0 20px 0;
-  background-color: white;
+.hero{
+display:flex;
+justify-content:space-between;
+padding:100px 0;
 }
-.hero .container {
-  padding-left: 300px;
+.hero-left,.hero-right{
+display: flex;
+flex-direction: column;
+gap:50px;
 }
-.hero-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 40px;
+.hero-info{
+display:flex;
+align-items:center;
+gap:30px;
 }
-.hero-left {
-  max-width: 500px;
+.info-item{
+display:flex;
+align-items:center;
+gap:10px;
 }
-.hero-tags {
-  display: flex;
-  gap: 16px;
-  margin-bottom: 10px;
-  font-size: 14px;
-  color: black;
+.info-item img{
+width:22px;
+height:21px;
 }
-.hero h1 {
-  font-size: 50px;
-  font-weight: 600;
-  line-height: 0.8;
-  margin-bottom: 10px;
+.info-item span{
+font-size:20px;
+line-height:2.3;
 }
-.hero p {
-  font-size: 16px;
-  color: black;
-  line-height: 1.6;
+.hero-left h1{
+font-size:80px;
+line-height:0.8;
 }
-.hero-right img {
-  width: 40%;
-  max-width: 400px;
-  margin-right: 70px;
+.hero-text{
+font-size:20px;
+line-height:1.5;
+margin-top:-20px;
 }
-.quote {
-  padding: 60px 0;
+.lower-left{
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 30px 0 100px 0;
 }
-.quote-card {
-  background-color: #2a5fbd;
-  color: #ffffff;
-  padding: 40px;
-  border-radius: 12px;
-  max-width: 380px;
-  margin: 0 auto;
+.quote{
+width:500px;
+background:#2D4C7C;
+color:white;
+padding:25px;
+border-radius:5px;
 }
-.quote-card p {
-  font-size: 18px;
-  margin-bottom: 10px;
+.quote p{
+font-size: 25px;
 }
-.quote-card span {
-  font-size: 14px;
-  opacity: 0.8;
-  display: block;
-  padding-left: 150px;
+.quote span{
+font-size:20px;
+text-align: right;
+display: block;
+}
+.hero-right img{
+width:75%;
+}
+.radius{
+width:300px;
+height:45px;
+border-radius:50%;
+background-color:#EFEFEF;
 }
 
