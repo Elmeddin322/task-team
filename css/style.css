@@ -13,6 +13,7 @@ padding: 0 32px;
 display:flex;
 justify-content:space-between;
 padding:100px 0;
+flex-wrap:wrap;
 }
 .hero-left,.hero-right{
 display: flex;
@@ -76,4 +77,47 @@ height:45px;
 border-radius:50%;
 background-color:#EFEFEF;
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .hero-right img {
+    margin-left: 50px;
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .hero-left h1 {
+    font-size: 40px;
+  }
+
+  .hero-right img {
+    width: 85%;
+  }
+
+  .quote {
+    width: 420px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero-left h1 {
+    font-size: 50px;
+  }
+
+  .hero-right img {
+    width: 40%;
+    margin-left: 400px;
+    display: block;
+  }
+
+  .quote {
+    width: 480px;
+    margin: 0 auto;
+  }
+   .radius {
+    margin-left: auto;
+    margin-left: 400px;
+  }
+}
+
 
